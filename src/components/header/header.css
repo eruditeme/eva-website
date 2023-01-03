@@ -1,0 +1,78 @@
+header {
+    background-image: url("sky.jpg");
+    height:100vh;
+    padding-top: 12rem;
+    padding-right: 9rem;
+    padding-left: 9rem;
+    overflow:visible;
+}
+
+.header__container {
+    text-align:left;
+    color: white;
+    position: relative;
+}
+
+.typing{
+    height: 13vh;
+    font-size: 3.5rem;
+    position: relative;
+    font-weight: 550;
+    color: #00ebc7;
+}
+
+#hi {
+    padding-top: 0.6rem;
+}
+
+#fn {
+    color: #00ebc7;
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+#ido {
+    font-size: 1.75rem;
+    color: #606582;
+}
+
+#spaceship {
+    animation: updown 3s linear infinite;
+    position: absolute;
+    height: 260px;
+    width: 400px;
+    left:55%;
+    bottom: 6rem;
+}
+
+@keyframes updown {
+    0% {
+        transform: translateY(-20px);
+    }
+    50% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+/* ========================== MEDIA QUERY ============================= */
+
+@media screen and (max-width:1024px) {
+    header {
+        height: 100vh;
+    }
+    
+    .header__container {
+        text-align: center;
+    }
+
+    .typing {
+        height: auto;
+    }
+
+    #spaceship {
+        display: none;
+    }
+}

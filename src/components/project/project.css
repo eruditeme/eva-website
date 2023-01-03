@@ -1,0 +1,54 @@
+#projects {
+    padding-right: 9rem;
+    padding-left: 9rem;
+    margin: 0%;
+}
+
+#project-title {
+    padding-top: 1%;
+    margin-bottom: 1%;
+}
+
+.project__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.project__item {
+    background: #202C6D;
+    padding: 1.3rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    height: fit-content;
+}
+
+.project__item:hover {
+    border-color: black;
+}
+
+.project__item-image {
+    border-radius: 2.5rem;
+    overflow:hidden;
+    padding: 2%;
+}
+
+p{
+    color: white;
+}
+
+/* ========================== MEDIA QUERY ============================= */
+
+@media screen and (max-width:1024px) {
+    .project__container {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .project__container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}

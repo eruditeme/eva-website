@@ -1,0 +1,28 @@
+#contact {
+    margin-top: 0%;
+    padding-right: 9rem;
+    padding-top: 4rem;
+    padding-left: 9rem;
+}
+
+.socials {
+    text-align: center;
+}
+
+#contact-title {
+    text-align: center;
+}
+
+a {
+    padding-right: 20px;
+}
+
+hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 96%;               
+    background-color: white;
+    height: 1px;
+    margin-bottom: 3%;
+ }
