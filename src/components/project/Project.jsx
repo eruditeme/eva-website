@@ -2,11 +2,29 @@ import React from 'react'
 import './project.css'
 import ONE from "../../assets/cozygamecover.jpeg.png"
 
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/navigation";
+
+// import required modules
+import { Navigation } from "swiper";
+
 const Project = () => {
   return (
     <section id="projects">
       <h2 id='project-title'>Projects</h2>
       <div className="project__container">
+        <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+          <SwiperSlide>Slide 1</SwiperSlide>
+          <SwiperSlide>Slide 2</SwiperSlide>
+          <SwiperSlide>Slide 3</SwiperSlide>
+          <SwiperSlide>Slide 4</SwiperSlide>
+          <SwiperSlide>Slide 5</SwiperSlide>
+          <SwiperSlide>Slide 6</SwiperSlide>
+          <SwiperSlide>Slide 7</SwiperSlide>
+          <SwiperSlide>Slide 8</SwiperSlide>
+          <SwiperSlide>Slide 9</SwiperSlide>
+        </Swiper>
         <article className="project__item">
           <h3>Cozy Town</h3>
           <p>
