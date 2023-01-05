@@ -42,12 +42,8 @@ li {
  }
 
  hr {
-    border: 0;
-    clear:both;
-    display:block;
-    width: 96%;               
+    border: 0;            
     background-color: white;
-    height: 1px;
     margin-top: 3%;
  }
 

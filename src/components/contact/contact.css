@@ -13,7 +13,7 @@
     text-align: center;
 }
 
-a {
+.social-space {
     padding-right: 20px;
 }
 
@@ -21,7 +21,7 @@ hr {
     border: 0;
     clear:both;
     display:block;
-    width: 96%;               
+    width: 100%;               
     background-color: white;
     height: 1px;
     margin-bottom: 3%;
