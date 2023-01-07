@@ -6,7 +6,7 @@ import Typed from 'react-typed'
 const Header = () => {
   return (
     <header>
-      <div className="container header__container">
+      <div className="header__container">
         <div className="typing">
           <Typed 
             strings={["hello, Evangeline here."]}

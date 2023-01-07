@@ -2,9 +2,9 @@ import React from 'react'
 import '../about/About'
 import '../project/Project'
 import '../contact/Contact'
-import './nav.css'
+import './navi.css'
 
-const Nav = () => {
+const Navi = () => {
   return (
     <div id='nav'>
         <a href='#about' class='nav-ele'>About</a>
@@ -14,4 +14,4 @@ const Nav = () => {
   )
 }
 
-export default Nav
+export default Navi

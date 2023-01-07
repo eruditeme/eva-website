@@ -64,11 +64,35 @@
         grid-template-columns: 1fr 1fr;
         gap: 1.2rem;
     }
+
+    .swiper-slide img {
+        border-radius: 4rem;
+        padding:5%;
+    }
+
+    .project-desc{
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 4%;
+    }
+
+    .project_item{
+        padding: 5%;
+    }
 }
 
 @media screen and (max-width:600px) {
     .project__container {
         grid-template-columns: 1fr;
         gap: 1rem;
+    }
+
+    #projects {
+        padding-right: 4rem;
+        padding-left: 4rem;
+    }
+
+    .swiper-slide img {
+        border-radius: 2rem;
     }
 }

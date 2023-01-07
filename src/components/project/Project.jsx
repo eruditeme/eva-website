@@ -23,7 +23,7 @@ const Project = () => {
               </p>
               <p class="project-desc">Built using HTML Canvas</p>
               <a href="https://github.com/eruditeme/cozyBattleGame" className='btn' target="_blank" rel="noopener noreferrer">Github</a>
-              <a href="https://papaya-cendol-bd7840.netlify.app/" className='btn btn-primary' target="_blank" rel="noopener noreferrer">Live Demo</a>
+              <a href="https://papaya-cendol-bd7840.netlify.app/" className='btn' target="_blank" rel="noopener noreferrer">Live Demo</a>
             </div>
           </SwiperSlide>
           <SwiperSlide>
