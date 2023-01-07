@@ -26,3 +26,12 @@ hr {
     height: 1px;
     margin-bottom: 3%;
  }
+
+ /* ========================== MEDIA QUERY ============================= */
+
+ @media screen and (max-width:600px) {
+    #contact {
+        padding-right: 4rem;
+        padding-left: 4rem;
+    }
+}

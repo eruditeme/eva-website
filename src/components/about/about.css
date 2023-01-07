@@ -59,22 +59,33 @@ li {
     .about__container {
         display:table;
     }
+
     h2, p {
         text-align: center;
     }
+
     p {
         padding-bottom: 1rem;
+    }
+
+    .about__me-image {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
 @media screen and (max-width:600px) {
-    .about__container {
-        display:table;
-    }
-    h2, p {
-        text-align: center;
+    #about {
+        padding-right: 4rem;
+        padding-left: 4rem;
     }
     p {
         padding-bottom: 2rem;
+    }
+
+    .about__me-image {
+        width: 70%;
+        border-radius: 1rem;
     }
 }
