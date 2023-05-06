@@ -16,10 +16,10 @@ const Project = () => {
         <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
           <SwiperSlide>
             <div class='project_item'>
-              <h2 class="project-name">Cozy Town</h2>
+              <h2 class="project-name">Town</h2>
               <p class="project-desc">
-                A game where the player can walk around cozy town and battle evil vegetables at
-                battle zones.
+                A game created on HTML canvas where the player can walk 
+                around Cozy Town.
               </p>
               <p class="project-desc">Built using HTML Canvas</p>
               <a href="https://github.com/eruditeme/cozyBattleGame" className='btn' target="_blank" rel="noopener noreferrer">Github</a>
