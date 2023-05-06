@@ -24,7 +24,7 @@ const About = () => {
             Here are a few technologies that I have been working with:
             <ul>
               <li>Python</li>
-              <li>Java</li>
+              <li>MySQL</li>
               <li>jQuery (JavaScript) </li>
               <li>HTML, CSS, Bootstrap</li>
               <li>React</li>
