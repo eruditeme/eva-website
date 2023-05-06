@@ -17,45 +17,28 @@
 .project-name {
     padding-bottom: 0;
     margin-bottom: 0;
+    font-size:x-large;
+    padding-top: 1rem;
 }
-  
-.swiper-slide {
-    text-align: center;
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
+
+.project-container {
+    background-color: #202c6d;
     border-radius: 2rem;
-    background: #202C6D;
-    padding: 1%;
-  }
-  
-.swiper-slide img {
-    display: block;
-    object-fit: cover;
-    border-radius: 6rem;
-    overflow:hidden;
-    padding-left: 3%;
-    padding-right: 3%;
-    padding-top: 1%;
-    padding-bottom: 2%;
-  }
+    text-align: center;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    border: 1px solid transparent;
+}
+
+.project-container:hover {
+    border-color: #606582;
+}
 
 .project-desc{
     color: white;
-    text-align: center;
     margin-bottom: 1rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
     margin-top: 1rem;
 }
 
