@@ -25,21 +25,21 @@ const About = () => {
             <ul>
               <li>Python</li>
               <li>Java</li>
-              <li>C</li>
-              <li>HTML, CSS</li>
+              <li>jQuery (JavaScript) </li>
+              <li>HTML, CSS, Bootstrap</li>
               <li>React</li>
               <li>Node.js</li>
             </ul>
           </p>
 
           <p className='bios'>
-            
-            Outside of work and academics, I enjoy playing video games, listening to music, and 
-            creating digital art.
+            Outside of work and academics, I enjoy creating digital art, listening to music,
+            and playing video games. My favorite video games of all time would be Persona 5 ☕ and Stardew Valley 🌻,
+            but you can probably catch me playing Tetris 🕹️🧱 most of the time.
           </p>
         </div>
         <div className='about__me-image'>
-            <img src= {ME} alt="About Me"></img>
+            
         </div>
       </div>
       <hr></hr>

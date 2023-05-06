@@ -37,7 +37,7 @@ li {
     color:#8187AA;
  }
 
- li::marker, .job {
+ li::marker{
      color:#00ebc7;
  }
 
