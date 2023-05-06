@@ -1,17 +1,16 @@
 {
   "files": {
-    "main.css": "/eva-website/static/css/main.9a2b636d.css",
-    "main.js": "/eva-website/static/js/main.54bc896b.js",
+    "main.css": "/eva-website/static/css/main.a5943f91.css",
+    "main.js": "/eva-website/static/js/main.3e95793d.js",
     "static/media/me-about.jpg": "/eva-website/static/media/me-about.c7a318118e53161f0b35.jpg",
     "static/media/sky.jpg": "/eva-website/static/media/sky.680c1b283ea44e21bd9f.jpg",
     "static/media/ufo.png": "/eva-website/static/media/ufo.4565cee29f02e5aca11e.png",
-    "static/media/cozygamecover.jpeg.png": "/eva-website/static/media/cozygamecover.jpeg.9cff71f68fa195d77e3d.png",
     "index.html": "/eva-website/index.html",
-    "main.9a2b636d.css.map": "/eva-website/static/css/main.9a2b636d.css.map",
-    "main.54bc896b.js.map": "/eva-website/static/js/main.54bc896b.js.map"
+    "main.a5943f91.css.map": "/eva-website/static/css/main.a5943f91.css.map",
+    "main.3e95793d.js.map": "/eva-website/static/js/main.3e95793d.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a2b636d.css",
-    "static/js/main.54bc896b.js"
+    "static/css/main.a5943f91.css",
+    "static/js/main.3e95793d.js"
   ]
 }
