@@ -22,6 +22,16 @@ const Project = () => {
             <a href="https://github.com/eruditeme/easy-chef" className='btn' target="_blank" rel="noopener noreferrer">Github</a>
           </div>
           <div className="project-container">
+            <h2 class="project-name">Weather App</h2>
+            <p class="project-desc">
+              This weather app enables users to stay up-to-date on the current 
+              weather conditions in any city around the world. With this app, you can 
+              easily search for a city and get real-time information on the temperature, 
+              pressure, wind speed, and humidity levels.
+            </p>
+            <a href="https://lamevang-weather-app.netlify.app/" className='btn' target="_blank" rel="noopener noreferrer">Live Demo</a>
+          </div>
+          <div className="project-container">
             <h2 class="project-name">Simon</h2>
               <p class="project-desc">
                 Simon is a game designed to test and improve a player's memory and cognitive skills. 
