@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/eva-website/static/css/main.08c995a1.css",
-    "main.js": "/eva-website/static/js/main.3b0c5f57.js",
+    "main.css": "/eva-website/static/css/main.a27a0da6.css",
+    "main.js": "/eva-website/static/js/main.f904610b.js",
     "static/media/me-about.jpg": "/eva-website/static/media/me-about.c7a318118e53161f0b35.jpg",
     "static/media/sky.jpg": "/eva-website/static/media/sky.680c1b283ea44e21bd9f.jpg",
     "static/media/ufo.png": "/eva-website/static/media/ufo.4565cee29f02e5aca11e.png",
     "index.html": "/eva-website/index.html",
-    "main.08c995a1.css.map": "/eva-website/static/css/main.08c995a1.css.map",
-    "main.3b0c5f57.js.map": "/eva-website/static/js/main.3b0c5f57.js.map"
+    "main.a27a0da6.css.map": "/eva-website/static/css/main.a27a0da6.css.map",
+    "main.f904610b.js.map": "/eva-website/static/js/main.f904610b.js.map"
   },
   "entrypoints": [
-    "static/css/main.08c995a1.css",
-    "static/js/main.3b0c5f57.js"
+    "static/css/main.a27a0da6.css",
+    "static/js/main.f904610b.js"
   ]
 }
