@@ -29,6 +29,7 @@ const Project = () => {
               easily search for a city and get real-time information on the temperature, 
               pressure, wind speed, and humidity levels.
             </p>
+            <p class="project-desc">Built using React, OpenWeather API, HTML, CSS, Bootstrap</p>
             <a href="https://lamevang-weather-app.netlify.app/" className='btn' target="_blank" rel="noopener noreferrer">Live Demo</a>
           </div>
           <div className="project-container">
