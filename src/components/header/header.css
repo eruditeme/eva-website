@@ -25,12 +25,6 @@ header {
     padding-top: 0.6rem;
 }
 
-#fn {
-    color: #00ebc7;
-    font-size: 3.5rem;
-    font-weight: bold;
-}
-
 #ido {
     font-size: 1.75rem;
     color: #606582;
@@ -58,6 +52,22 @@ header {
 }
 
 /* ========================== MEDIA QUERY ============================= */
+
+@media screen and (max-width:1920px) {
+    .typing{
+        font-size: 4vw;
+    }
+
+    #ido {
+        font-size: 1.8vw;
+    }
+
+    #spaceship {
+        position: absolute;
+        height: 21vw;
+        width: 32vw;
+    }
+}
 
 @media screen and (max-width:1024px) {
     header {
