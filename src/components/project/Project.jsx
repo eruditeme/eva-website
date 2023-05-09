@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import './project.css'
 import "swiper/css";
 import "swiper/css/navigation";
@@ -6,10 +6,49 @@ import "swiper/css/navigation";
 const Project = () => {
 
     const [showContent, setShowContent] = useState(false);
-  
-    const handleClick = () => {
-      setShowContent(true);
+    const [content, setContent] = useState("");
+
+    function toggleContent() {
+      if (showContent === true) {
+        setContent(
+          <>
+            <div>
+              <div className="project-container">
+                <h2 className="project-name">Simon</h2>
+                  <p className="project-desc">
+                    Simon is a game designed to test and improve a player's memory and cognitive skills. 
+                    The game consists of a small electronic console with four colored buttons, 
+                    each of which produces a unique sound when pressed.
+                  </p>
+                  <p class="project-desc">Built using HTML, CSS, jQuery (JavaScript)</p>
+                  <a href="https://github.com/eruditeme/Simon-Game" className='btn' target="_blank" rel="noopener noreferrer">Github</a>
+                  <a href="https://eruditeme.github.io/Simon-Game/" className='btn' target="_blank" rel="noopener noreferrer">Live Demo</a>
+              </div>
+              <div className="project-container">
+                <h2 className="project-name">Town</h2>
+                  <p className="project-desc">
+                    A game where the player can walk around the town using the WASD keys. Deployed using Netlify.
+                  </p>
+                  <p className="project-desc">Built using HTML Canvas</p>
+                  <a href="https://github.com/eruditeme/Town" className='btn' target="_blank" rel="noopener noreferrer">Github</a>
+                  <a href="https://papaya-cendol-bd7840.netlify.app" className='btn' target="_blank" rel="noopener noreferrer">Live Demo</a>
+              </div>
+              <button id="see-more" className='btn' onClick={handleClick}>Show Less 🚀</button>
+            </div>
+          </>
+        );
+      } else {
+        setContent("");
+      }
     }
+
+    function handleClick() {
+      setShowContent(!showContent);
+    }
+
+    useEffect(() => {
+      toggleContent();
+    }, [showContent]);
 
   return (
     <section id="projects">
@@ -39,32 +78,9 @@ const Project = () => {
             <p class="project-desc">Built using React, OpenWeather API, HTML, CSS, Bootstrap</p>
             <a href="https://lamevang-weather-app.netlify.app/" className='btn' target="_blank" rel="noopener noreferrer">Live Demo</a>
           </div>
-          <div className="project-container">
-            <h2 class="project-name">Simon</h2>
-              <p class="project-desc">
-                Simon is a game designed to test and improve a player's memory and cognitive skills. 
-                The game consists of a small electronic console with four colored buttons, 
-                each of which produces a unique sound when pressed.
-              </p>
-              <p class="project-desc">Built using HTML, CSS, jQuery (JavaScript)</p>
-              <a href="https://github.com/eruditeme/Simon-Game" className='btn' target="_blank" rel="noopener noreferrer">Github</a>
-              <a href="https://eruditeme.github.io/Simon-Game/" className='btn' target="_blank" rel="noopener noreferrer">Live Demo</a>
-          </div>
           <div id='see-more-div'>
-            {!showContent && <button id="see-more" className='btn' onClick={handleClick}>Show More 🚀</button>}
-            {showContent && (
-              <div>
-                <div className="project-container">
-                  <h2 class="project-name">Town</h2>
-                    <p class="project-desc">
-                      A game where the player can walk around the town using the WASD keys. Deployed using Netlify.
-                    </p>
-                    <p class="project-desc">Built using HTML Canvas</p>
-                    <a href="https://github.com/eruditeme/Town" className='btn' target="_blank" rel="noopener noreferrer">Github</a>
-                    <a href="https://papaya-cendol-bd7840.netlify.app" className='btn' target="_blank" rel="noopener noreferrer">Live Demo</a>
-                </div>
-              </div>
-            )}
+            {!showContent ? <button id="see-more" className='btn' onClick={handleClick}>Show More 🚀</button> : null}
+            {content}
           </div>
     </section>
   )
