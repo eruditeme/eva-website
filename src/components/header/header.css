@@ -1,5 +1,5 @@
 header {
-    background-image: url("sky.jpg");
+    background: url("sky.jpg") no-repeat center center/cover;
     height:100vh;
     padding-top: 12rem;
     padding-right: 9rem;
