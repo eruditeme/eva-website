@@ -42,6 +42,22 @@
     margin-top: 1rem;
 }
 
+#see-more {
+    background-color: #474E68;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border-width: 0.1rem;
+    font-size: 1rem;
+    color: white;
+}
+
+#see-more:hover {
+    border-color: #202c6d;;
+}
+
+#see-more-div {
+   text-align: center;
+}
 
 /* ========================== MEDIA QUERY ============================= */
 

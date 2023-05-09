@@ -1,9 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './project.css'
 import "swiper/css";
 import "swiper/css/navigation";
 
 const Project = () => {
+
+    const [showContent, setShowContent] = useState(false);
+  
+    const handleClick = () => {
+      setShowContent(true);
+    }
+
   return (
     <section id="projects">
       <h2 id='project-title'>Projects</h2>
@@ -43,14 +50,21 @@ const Project = () => {
               <a href="https://github.com/eruditeme/Simon-Game" className='btn' target="_blank" rel="noopener noreferrer">Github</a>
               <a href="https://eruditeme.github.io/Simon-Game/" className='btn' target="_blank" rel="noopener noreferrer">Live Demo</a>
           </div>
-          <div className="project-container">
-            <h2 class="project-name">Town</h2>
-              <p class="project-desc">
-                A game where the player can walk around the town using the WASD keys. Deployed using Netlify.
-              </p>
-              <p class="project-desc">Built using HTML Canvas</p>
-              <a href="https://github.com/eruditeme/Town" className='btn' target="_blank" rel="noopener noreferrer">Github</a>
-              <a href="https://papaya-cendol-bd7840.netlify.app" className='btn' target="_blank" rel="noopener noreferrer">Live Demo</a>
+          <div id='see-more-div'>
+            {!showContent && <button id="see-more" className='btn' onClick={handleClick}>Show More 🚀</button>}
+            {showContent && (
+              <div>
+                <div className="project-container">
+                  <h2 class="project-name">Town</h2>
+                    <p class="project-desc">
+                      A game where the player can walk around the town using the WASD keys. Deployed using Netlify.
+                    </p>
+                    <p class="project-desc">Built using HTML Canvas</p>
+                    <a href="https://github.com/eruditeme/Town" className='btn' target="_blank" rel="noopener noreferrer">Github</a>
+                    <a href="https://papaya-cendol-bd7840.netlify.app" className='btn' target="_blank" rel="noopener noreferrer">Live Demo</a>
+                </div>
+              </div>
+            )}
           </div>
     </section>
   )
