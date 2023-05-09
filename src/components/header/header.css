@@ -52,23 +52,6 @@ header {
 }
 
 /* ========================== MEDIA QUERY ============================= */
-
-@media screen and (max-width:1920px) {
-    .typing{
-        font-size: 4vw;
-    }
-
-    #ido {
-        font-size: 1.8vw;
-    }
-
-    #spaceship {
-        position: absolute;
-        height: 18vw;
-        width: 28vw;
-    }
-}
-
 @media screen and (max-width:1024px) {
     header {
         height: 100vh;
