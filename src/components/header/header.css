@@ -15,7 +15,7 @@ header {
 
 .typing{
     height: 13vh;
-    font-size: 3.5rem;
+    font-size: 4vw;
     position: relative;
     font-weight: 550;
     color: #00ebc7;
@@ -26,15 +26,19 @@ header {
 }
 
 #ido {
-    font-size: 1.75rem;
+    font-size: 1.8vw;
     color: #606582;
+}
+
+.contact-me {
+    font-size: 1.1vw;
 }
 
 #spaceship {
     animation: updown 3s linear infinite;
     position: absolute;
-    height: 260px;
-    width: 400px;
+    height: 20vw;
+    width: 30vw;
     left:55%;
     bottom: 6rem;
 }
@@ -53,16 +57,25 @@ header {
 
 /* ========================== MEDIA QUERY ============================= */
 @media screen and (max-width:1024px) {
+    .typing{
+        font-size: 3.5rem;
+        height: auto;
+    }
+
+    .contact-me {
+        font-size: 1rem;
+    }
+
+    #ido {
+        font-size: 1.75rem;
+    }
+
     header {
         height: 100vh;
     }
     
     .header__container {
         text-align: center;
-    }
-
-    .typing {
-        height: auto;
     }
 
     #spaceship {
