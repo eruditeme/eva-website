@@ -15,7 +15,7 @@ const Header = () => {
         </div>
         <h3 id="ido">Welcome to my portfolio page</h3>
         <div id="hi">
-          <a href="mailto:evangelineyiqin@gmail.com" className='btn'>Contact Me</a>
+          <a href="mailto:evangelineyiqin@gmail.com" className='btn contact-me'>Contact Me</a>
         </div>
         
       </div>
