@@ -17,7 +17,7 @@
 .project-name {
     padding-bottom: 0;
     margin-bottom: 0;
-    font-size:x-large;
+    font-size:1.5vw;
     padding-top: 1rem;
 }
 
@@ -40,6 +40,7 @@
     margin-left: 2rem;
     margin-right: 2rem;
     margin-top: 1rem;
+    font-size: 1.1vw;
 }
 
 #see-more {
@@ -59,12 +60,24 @@
    text-align: center;
 }
 
+.btn {
+    font-size: 1.15vw;
+}
+
 /* ========================== MEDIA QUERY ============================= */
 
 @media screen and (max-width:1024px) {
+    .btn {
+        font-size: 1rem;
+    }
+
     .project__container {
         grid-template-columns: 1fr 1fr;
         gap: 1.2rem;
+    }
+
+    .project-name {
+        font-size:x-large;
     }
 
     .swiper-slide img {
@@ -76,6 +89,7 @@
         padding-left: 5%;
         padding-right: 5%;
         padding-bottom: 4%;
+        font-size: 1rem;
     }
 
     .project_item{

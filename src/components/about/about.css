@@ -14,7 +14,7 @@
 
 .bios {
     margin-bottom: 4%;
-    font-size:1.18rem;
+    font-size:1.25vw;
 }
 
 #bio {
@@ -31,7 +31,7 @@ ul {
 }
 
 li {
-    font-size: 18px;
+    font-size: 1.2vw;
     margin-left: 10px;
     list-style-type:disc;
     color:#8187AA;
@@ -56,6 +56,14 @@ li {
 /* ========================== MEDIA QUERY ============================= */
 
 @media screen and (max-width:1024px) {
+    .bios {
+        font-size:1.18rem;
+    }
+    
+    li {
+        font-size: 18px;
+     }
+
     .about__container {
         display:table;
     }

@@ -5,7 +5,16 @@
     margin-top: 10px;
 }
 
+small {
+    font-size: 0.9vw;
+}
+
 /* ========================== MEDIA QUERY ============================= */
+@media screen and (max-width:1024px) {
+    small {
+        font-size: 0.9rem;
+    }
+}
 
 @media screen and (max-width:600px) {
     .footer__copyright {
