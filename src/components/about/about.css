@@ -96,4 +96,9 @@ li {
         width: 70%;
         border-radius: 1rem;
     }
+
+    #about {
+        padding-right: 3rem;
+        padding-left: 3rem;
+    }
 }

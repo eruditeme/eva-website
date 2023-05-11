@@ -115,4 +115,9 @@
     .swiper-slide img {
         border-radius: 2rem;
     }
+
+    #projects {
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+    }
 }
