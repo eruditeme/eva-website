@@ -27,7 +27,7 @@ const Project = () => {
               <div className="project-container">
                 <h2 className="project-name">Town</h2>
                   <p className="project-desc">
-                    A game where the player can walk around the town using the WASD keys. Deployed using Netlify.
+                    Town is a game where you, the player, can walk around a small quiet town using the WASD keys. However, in certain areas of the map, players have a chance to enter a monster vs monster battle. Where are these battle zones you ask? Well, you are going to have to play the game to find out! Deployed using Netlify.
                   </p>
                   <p className="project-desc">Built using HTML Canvas</p>
                   <a href="https://papaya-cendol-bd7840.netlify.app" className='btn' target="_blank" rel="noopener noreferrer">Live Demo</a>
