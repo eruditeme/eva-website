@@ -30,7 +30,6 @@ const Project = () => {
                     A game where the player can walk around the town using the WASD keys. Deployed using Netlify.
                   </p>
                   <p className="project-desc">Built using HTML Canvas</p>
-                  <a href="https://github.com/eruditeme/Town" className='btn' target="_blank" rel="noopener noreferrer">Github</a>
                   <a href="https://papaya-cendol-bd7840.netlify.app" className='btn' target="_blank" rel="noopener noreferrer">Live Demo</a>
               </div>
               <button id="see-more" className='btn' onClick={handleClick}>Show Less 🚀</button>
