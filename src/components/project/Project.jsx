@@ -21,7 +21,7 @@ const Project = () => {
                     each of which produces a unique sound when pressed.
                   </p>
                   <p class="project-desc">Built using HTML, CSS, jQuery (JavaScript)</p>
-                  <a href="https://github.com/eruditeme/Simon-Game" className='btn' target="_blank" rel="noopener noreferrer">Github</a>
+                  <a href="https://github.com/eruditeme/Simon-Game" className='btn' target="_blank" rel="noopener noreferrer">GitHub</a>
                   <a href="https://eruditeme.github.io/Simon-Game/" className='btn' target="_blank" rel="noopener noreferrer">Live Demo</a>
               </div>
               <div className="project-container">
@@ -64,7 +64,7 @@ const Project = () => {
               Easy Chef takes care of that as well!
             </p>
             <p class="project-desc">Built using Django, Node.js, React, SQL, HTML, CSS, Bootstrap</p>
-            <a href="https://github.com/eruditeme/easy-chef" className='btn' target="_blank" rel="noopener noreferrer">Github</a>
+            <a href="https://github.com/eruditeme/easy-chef" className='btn' target="_blank" rel="noopener noreferrer">GitHub</a>
           </div>
           <div className="project-container">
             <h2 class="project-name">Weather App</h2>
@@ -75,6 +75,7 @@ const Project = () => {
               pressure, wind speed, and humidity levels.
             </p>
             <p class="project-desc">Built using React, OpenWeather API, HTML, CSS, Bootstrap</p>
+            <a href="https://github.com/eruditeme/weather-app" className='btn' target="_blank" rel="noopener noreferrer">GitHub</a>
             <a href="https://lamevang-weather-app.netlify.app/" className='btn' target="_blank" rel="noopener noreferrer">Live Demo</a>
           </div>
           <div id='see-more-div'>
