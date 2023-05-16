@@ -58,6 +58,7 @@ li {
 @media screen and (max-width:1024px) {
     .bios {
         font-size:1.18rem;
+        text-align: left;
     }
     
     li {
@@ -66,10 +67,6 @@ li {
 
     .about__container {
         display:table;
-    }
-
-    h2, p {
-        text-align: center;
     }
 
     p {
@@ -81,16 +78,13 @@ li {
         margin-left: auto;
         margin-right: auto;
     }
+
+    ul {
+        padding-left: 0.4rem;
+    }
 }
 
 @media screen and (max-width:600px) {
-    #about {
-        padding-right: 4rem;
-        padding-left: 4rem;
-    }
-    p {
-        padding-bottom: 2rem;
-    }
 
     .about__me-image {
         width: 70%;
@@ -100,5 +94,9 @@ li {
     #about {
         padding-right: 3rem;
         padding-left: 3rem;
+    }
+
+    .bios, li {
+        font-size: 0.9rem;
     }
 }

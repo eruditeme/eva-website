@@ -80,6 +80,10 @@ img {
     section {
         margin-top: 6rem;
     }
+
+    h2 {
+        font-size: 1.4rem;
+    }
 }
 
 /* ========================== MEDIA QUERY ============================= */

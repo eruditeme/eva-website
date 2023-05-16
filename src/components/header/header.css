@@ -58,7 +58,7 @@ header {
 /* ========================== MEDIA QUERY ============================= */
 @media screen and (max-width:1024px) {
     .typing{
-        font-size: 3.5rem;
+        font-size:3.4rem;
         height: auto;
     }
 
@@ -68,10 +68,6 @@ header {
 
     #ido {
         font-size: 1.75rem;
-    }
-
-    header {
-        height: 100vh;
     }
     
     .header__container {
@@ -85,8 +81,8 @@ header {
 
 @media screen and (max-width:600px) {
     header {
-        padding-right: 4rem;
-        padding-left: 4rem;
-        padding-top: 6rem;;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        padding-top: 10rem;;
     }
 }
