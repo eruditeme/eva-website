@@ -19,9 +19,9 @@ const About = () => {
             Web Development 👩‍💻, Machine Learning 🤖🧠, and UX Design 🎨.
           </p>
 
-          <p className='bios'>
+          <div className='bios'>
 
-            Here are a few technologies that I have been working with:
+            <p>Here are a few technologies that I have been working with:</p>
             <ul>
               <li>Python</li>
               <li>MySQL</li>
@@ -30,7 +30,7 @@ const About = () => {
               <li>React</li>
               <li>Node.js</li>
             </ul>
-          </p>
+          </div>
 
           <p className='bios'>
             Outside of work and academics, I enjoy creating digital art, listening to music,

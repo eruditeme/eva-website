@@ -9,15 +9,15 @@ const Contact = () => {
         <hr></hr>
         <h2 id="contact-title">Contact Me</h2>
         <div className='socials'>
-            <a class="social-space" href="http://ca.linkedin.com/in/lamevang" target="_blank" rel="noopener noreferrer">
-                <IconContext.Provider value={{ className: "shared-class", size: "1.8rem" }}>
+            <a className="social-space" href="http://ca.linkedin.com/in/lamevang" target="_blank" rel="noopener noreferrer">
+                <IconContext.Provider value={{ className: "shared-className", size: "1.8rem" }}>
                     <>
                         <BsLinkedin />
                     </>
                 </IconContext.Provider>
             </a>
-            <a class="social-space" href="https://instagram.com/_eva_lam_" target="_blank" rel="noopener noreferrer">
-                <IconContext.Provider value={{ className: "shared-class", size: "1.8rem" }}>
+            <a className="social-space" href="https://instagram.com/_eva_lam_" target="_blank" rel="noopener noreferrer">
+                <IconContext.Provider value={{ className: "shared-className", size: "1.8rem" }}>
                     <>
                         <BsInstagram />
                     </>
