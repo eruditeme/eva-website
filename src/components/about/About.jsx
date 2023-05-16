@@ -1,6 +1,5 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/me-about.jpg'
 
 const About = () => {
   return (
@@ -25,10 +24,10 @@ const About = () => {
             <ul>
               <li>Python</li>
               <li>MySQL</li>
-              <li>jQuery (JavaScript) </li>
-              <li>HTML, CSS, Bootstrap</li>
+              <li>JavaScript</li>
+              <li>HTML, CSS</li>
               <li>React</li>
-              <li>Node.js</li>
+              <li>Django</li>
             </ul>
           </div>
 

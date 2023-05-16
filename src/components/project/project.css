@@ -4,45 +4,6 @@
     margin: 0%;
 }
 
-#project-title {
-    padding-top: 1%;
-    margin-bottom: 1%;
-}
-
-.swiper {
-    width: 100%;
-    height: 100%;
-}
-
-.project-name {
-    padding-bottom: 0;
-    margin-bottom: 0;
-    font-size:1.5vw;
-    padding-top: 1rem;
-}
-
-.project-container {
-    background-color: #202c6d;
-    border-radius: 2rem;
-    text-align: center;
-    padding-bottom: 1rem;
-    margin-bottom: 2rem;
-    border: 1px solid transparent;
-}
-
-.project-container:hover {
-    border-color: #606582;
-}
-
-.project-desc{
-    color: white;
-    margin-bottom: 1rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    margin-top: 1rem;
-    font-size: 1.1vw;
-}
-
 #see-more {
     background-color: #474E68;
     padding: 1rem;
@@ -50,6 +11,12 @@
     border-width: 0.1rem;
     font-size: 1.2vw;
     color: white;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
 }
 
 #see-more:hover {
@@ -60,64 +27,17 @@
    text-align: center;
 }
 
-.btn {
-    font-size: 1.15vw;
-}
-
 /* ========================== MEDIA QUERY ============================= */
 
 @media screen and (max-width:1024px) {
-    #see-more {
-        font-size: 1rem;
-    }
-
-    .btn {
-        font-size: 1rem;
-    }
-
-    .project__container {
-        grid-template-columns: 1fr 1fr;
-        gap: 1.2rem;
-    }
-
-    .project-name {
-        font-size:x-large;
-    }
-
-    .swiper-slide img {
-        border-radius: 4rem;
-        padding:5%;
-    }
-
-    .project-desc{
-        padding-left: 5%;
-        padding-right: 5%;
-        padding-bottom: 4%;
-        font-size: 1rem;
-    }
-
-    .project_item{
-        padding: 5%;
+    .grid-container {
+        grid-template-columns: 1fr;
     }
 }
 
 @media screen and (max-width:600px) {
-    .project__container {
-        grid-template-columns: 1fr;
-        gap: 1rem;
-    }
-
     #projects {
-        padding-right: 4rem;
-        padding-left: 4rem;
-    }
-
-    .swiper-slide img {
-        border-radius: 2rem;
-    }
-
-    #projects {
-        padding-right: 1.5rem;
-        padding-left: 1.5rem;
+        padding-right: 2rem;
+        padding-left: 3rem;
     }
 }
