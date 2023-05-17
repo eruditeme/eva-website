@@ -25,7 +25,7 @@ const Project = () => {
             tech='Built using React, OpenWeather API, HTML, CSS, Bootstrap'
             github = 'https://github.com/eruditeme/easy-chef'
             demo = 'https://lamevang-weather-app.netlify.app/'
-            descr = 'This weather app enables users to stay up-to-date on the current weather conditions in any city around the world. ith this app, you can easily search for a city and get real-time information on the temperature, pressure, wind speed, and humidity levels.'
+            descr = 'This weather app enables users to stay up-to-date on the current weather conditions in any city around the world. With this app, you can easily search for a city and get real-time information on the temperature, pressure, wind speed, and humidity levels.'
           />
           <ProjectCard 
             img = {simonImg}
