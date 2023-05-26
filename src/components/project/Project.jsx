@@ -39,6 +39,7 @@ const Project = () => {
             img = {townImg}
             name='Town' 
             tech='Built using HTML Canvas'
+            github = "https://github.com/eruditeme/Town"
             demo = 'https://papaya-cendol-bd7840.netlify.app'
             descr = 'Town is a game where you, the player, can walk around a small quiet town using the WASD keys. However, in certain areas, players will have a chance of encountering a draggle. When this occurs, a battle will be initiated. Deployed using Netlify.'
           />
