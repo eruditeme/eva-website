@@ -33,7 +33,7 @@ const Project = () => {
             tech='Built using HTML, CSS, jQuery (JavaScript)'
             github = 'https://github.com/eruditeme/Simon-Game'
             demo = 'https://eruditeme.github.io/Simon-Game/'
-            descr = 'Simon is a game designed to test and improve a player"s memory and cognitive skills. The game consists of a small electronic console with four colored buttons, each of which produces a unique sound when pressed.'
+            descr = "Simon is a game designed to test and improve a player's memory and cognitive skills. In order to advance to the next level, players must memorize the pattern and repeat it accordingly. Otherwise, it is Game Over."
           />
           <ProjectCard 
             img = {townImg}
