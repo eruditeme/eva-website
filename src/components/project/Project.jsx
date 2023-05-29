@@ -5,6 +5,8 @@ import easyChefImg from '../../assets/easyChefImg.png'
 import weatherImg from '../../assets/weatherImg.jpeg'
 import simonImg from '../../assets/simonImg.png'
 import townImg from '../../assets/townImg.png'
+import easyChefRecipes from '../../assets/easyChefRecipes.png'
+import easyChefGif from '../../assets/easyChefGif.gif'
 
 const Project = () => {
 
@@ -13,7 +15,7 @@ const Project = () => {
       <h2 id='project-title'>Projects</h2>
         <div className="grid-container ">
           <ProjectCard 
-            img = {easyChefImg}
+            img = {easyChefGif}
             name='Easy Chef' 
             tech='Built using Django, Node.js, React, SQL, HTML, CSS, Bootstrap'
             github = 'https://github.com/eruditeme/easy-chef'
