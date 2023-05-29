@@ -1,11 +1,9 @@
 import React from 'react'
 import './project.css'
 import ProjectCard from './ProjectCard';
-import easyChefImg from '../../assets/easyChefImg.png'
 import weatherImg from '../../assets/weatherImg.jpeg'
 import simonImg from '../../assets/simonImg.png'
 import townImg from '../../assets/townImg.png'
-import easyChefRecipes from '../../assets/easyChefRecipes.png'
 import easyChefGif from '../../assets/easyChefGif.gif'
 
 const Project = () => {
