@@ -18,7 +18,7 @@
 }
 
 #bio {
-    color: hsl(228, 20%, 76%);
+    color: hsl(233, 15%, 78%);
     font-size: large;
     font-weight: 100;
 }
@@ -34,7 +34,7 @@ li {
     font-size: 1.2vw;
     margin-left: 10px;
     list-style-type:disc;
-    color:#8187AA;
+    color:#d0d2dd;
  }
 
  li::marker{
