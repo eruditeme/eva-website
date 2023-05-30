@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/eva-website/static/css/main.52b54d1f.css",
+    "main.css": "/eva-website/static/css/main.9131cf5a.css",
     "main.js": "/eva-website/static/js/main.ded677a5.js",
     "static/media/easyChefGif.gif": "/eva-website/static/media/easyChefGif.817545a1ab03388f16d7.gif",
     "static/media/weatherImg.jpeg": "/eva-website/static/media/weatherImg.d84e38aa9a6a0804b139.jpeg",
@@ -9,11 +9,11 @@
     "static/media/sky.jpg": "/eva-website/static/media/sky.680c1b283ea44e21bd9f.jpg",
     "static/media/ufo.png": "/eva-website/static/media/ufo.4565cee29f02e5aca11e.png",
     "index.html": "/eva-website/index.html",
-    "main.52b54d1f.css.map": "/eva-website/static/css/main.52b54d1f.css.map",
+    "main.9131cf5a.css.map": "/eva-website/static/css/main.9131cf5a.css.map",
     "main.ded677a5.js.map": "/eva-website/static/js/main.ded677a5.js.map"
   },
   "entrypoints": [
-    "static/css/main.52b54d1f.css",
+    "static/css/main.9131cf5a.css",
     "static/js/main.ded677a5.js"
   ]
 }
