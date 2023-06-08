@@ -8,14 +8,12 @@ const About = () => {
       <div className='about__container'>
         <div id="bio">
           <p className='bios'>
-            Hey, I'm Evangeline, a fourth year student studying Computer Science and 
-            Geographical Information Systems at University of Toronto.
-          </p> 
+            Hey, I'm Evangeline, a fourth year UofT student doing a double major in Computer Science and 
+            Geographical Information Systems, as well as a minor in Economics.
+          </p>  
 
           <p className='bios'>
-            
-            Some of my interests are in
-            Web Development 👩‍💻, Machine Learning 🤖🧠, and UX Design 🎨.
+          
           </p>
 
           <div className='bios'>
@@ -23,7 +21,7 @@ const About = () => {
             <p>Here are a few technologies that I have been working with:</p>
             <ul>
               <li>Python</li>
-              <li>MySQL</li>
+              <li>PostgreSQL</li>
               <li>JavaScript</li>
               <li>HTML, CSS</li>
               <li>React</li>
