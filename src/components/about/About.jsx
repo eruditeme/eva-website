@@ -10,10 +10,6 @@ const About = () => {
           <p className='bios'>
             Hey, I'm Evangeline, a fourth year UofT student doing a double major in Computer Science and 
             Geographical Information Systems, as well as a minor in Economics.
-          </p>  
-
-          <p className='bios'>
-          
           </p>
 
           <div className='bios'>
