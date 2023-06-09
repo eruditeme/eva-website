@@ -5,13 +5,15 @@ import weatherImg from '../../assets/weatherImg.jpeg'
 import simonImg from '../../assets/simonImg.png'
 import townImg from '../../assets/townImg.png'
 import easyChefGif from '../../assets/easyChefGif.gif'
+import { FadeInSection } from '../about/FadeIn';
 
 const Project = () => {
 
 
   return (
     <section id="projects">
-      <h2 id='project-title'>Projects</h2>
+      <FadeInSection>
+        <h2 id='project-title'>Projects</h2>
         <div className="grid-container ">
           <ProjectCard 
             img = {easyChefGif}
@@ -45,6 +47,7 @@ const Project = () => {
             descr = 'Town is a game where you, the player, can walk around a small quiet town using the WASD keys. However, in certain areas, players will have a chance of encountering a draggle. When this occurs, a battle will be initiated. Deployed using Netlify.'
           />
         </div>
+      </FadeInSection>
     </section>
   )
 }
