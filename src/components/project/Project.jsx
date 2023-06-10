@@ -19,7 +19,7 @@ const Project = () => {
             img = {easyChefGif}
             name='Easy Chef' 
             tech='Built using Django, Node.js, React, SQL, HTML, CSS, Bootstrap'
-            github = 'https://github.com/eruditeme/easy-chef'
+            github = 'https://github.com/eruditeme/EasyChef'
             descr = 'Easy Chef is a recipe sharing web application. With Easy Chef, you can search through recipes from various diets and ingredients from all over the world, share your custom recipe with everyone, as well as filter recipe ideas based on your needs!'
           />
           <ProjectCard 
