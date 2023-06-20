@@ -28,9 +28,8 @@ const About = () => {
             </div>
 
             <p className='bios'>
-              Outside of work and academics, I enjoy creating digital art, listening to music,
-              and playing video games. My favorite video games of all time would be Persona 5 ☕ and Stardew Valley 🌻,
-              but you can probably catch me playing Tetris 🕹️🧱 most of the time.
+              Outside of work and academics, I enjoy creating digital art,
+              playing video games, and watching space documentaries. 
             </p>
           </div>
           <div className='about__me-image'>
