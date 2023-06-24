@@ -2,9 +2,9 @@ import React from 'react'
 import './project.css'
 import ProjectCard from './ProjectCard';
 import weatherImg from '../../assets/weatherImg.jpeg'
-import simonImg from '../../assets/simonImg.png'
 import townImg from '../../assets/townImg.png'
 import easyChefGif from '../../assets/easyChefGif.gif'
+import todolist from '../../assets/todolist.png'
 import { FadeInSection } from '../about/FadeIn';
 
 const Project = () => {
@@ -20,9 +20,29 @@ const Project = () => {
             <ProjectCard 
               img = {easyChefGif}
               name='Easy Chef' 
-              tech='Built using Django, Node.js, React, SQL, HTML, CSS, Bootstrap'
+              tech='Built using Django, Node.js, React, SQLite, HTML, CSS, Bootstrap'
               github = 'https://github.com/eruditeme/EasyChef'
-              descr = 'Easy Chef is a recipe sharing web application. With Easy Chef, you can search through recipes from various diets and ingredients from all over the world, share your custom recipe with everyone, as well as filter recipe ideas based on your needs!'
+              descr = 'Easy Chef is a recipe sharing web application. With Easy Chef, you can search through recipes from various diets and ingredients from all over the world, share your custom recipe with everyone, as well as filter recipe ideas based on your needs. No need to worry about your grocery list either, Easy Chef takes care of that as well!'
+            />
+          </FadeInSection>
+          <FadeInSection>
+            <ProjectCard 
+              img = {todolist}
+              name='To Do App' 
+              tech='Built using EJS, MongoDB, Express.js, HTML, CSS'
+              github = 'https://github.com/eruditeme/toDoApp'
+              demo = 'https://evening-wave-11303-56595dc7bb5c.herokuapp.com/'
+              descr = "Tired of forgetting what you need to do for the day? Well, this to do list can help you solve just that. This to do app empowers you to tailor your to-do lists according to your unique needs and preferences, whether it is a to do list for school, work, home, etc. Deployed with Heroku."
+            />
+          </FadeInSection>
+          <FadeInSection>
+            <ProjectCard 
+              img = {townImg}
+              name='Town' 
+              tech='Built using HTML Canvas'
+              github = "https://github.com/eruditeme/Town"
+              demo = 'https://papaya-cendol-bd7840.netlify.app'
+              descr = 'Inspired by Pokémon, Town is a game where you, the player, can walk around a small quiet town using the WASD keys. However, in certain areas, players will have a chance of encountering a draggle. When this occurs, a battle will be initiated.'
             />
           </FadeInSection>
           <FadeInSection>
@@ -33,26 +53,6 @@ const Project = () => {
               github = 'https://github.com/eruditeme/easy-chef'
               demo = 'https://lamevang-weather-app.netlify.app/'
               descr = 'This weather app enables users to stay up-to-date on the current weather conditions in any city around the world. With this app, you can easily search for a city and get real-time information on the temperature, pressure, wind speed, and humidity levels.'
-            />
-          </FadeInSection>
-          <FadeInSection>
-            <ProjectCard 
-              img = {simonImg}
-              name='Simon' 
-              tech='Built using HTML, CSS, jQuery (JavaScript)'
-              github = 'https://github.com/eruditeme/Simon-Game'
-              demo = 'https://eruditeme.github.io/Simon-Game/'
-              descr = "Simon is a game designed to test and improve a player's memory and cognitive skills. In order to advance to the next level, players must memorize the pattern and repeat it accordingly. Otherwise, it is Game Over."
-            />
-          </FadeInSection>
-          <FadeInSection>
-            <ProjectCard 
-              img = {townImg}
-              name='Town' 
-              tech='Built using HTML Canvas'
-              github = "https://github.com/eruditeme/Town"
-              demo = 'https://papaya-cendol-bd7840.netlify.app'
-              descr = 'Town is a game where you, the player, can walk around a small quiet town using the WASD keys. However, in certain areas, players will have a chance of encountering a draggle. When this occurs, a battle will be initiated. Deployed using Netlify.'
             />
           </FadeInSection>
         </div>
