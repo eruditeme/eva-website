@@ -20,7 +20,7 @@ const Project = () => {
             <ProjectCard 
               img = {easyChefGif}
               name='Easy Chef' 
-              tech='Built using Django, Node.js, React, SQLite, HTML, CSS, Bootstrap'
+              tech='Built using Django, React, SQL, HTML, CSS, Bootstrap'
               github = 'https://github.com/eruditeme/EasyChef'
               descr = 'Easy Chef is a recipe sharing web application. With Easy Chef, you can search through recipes from various diets and ingredients from all over the world, share your custom recipe with everyone, as well as filter recipe ideas based on your needs. No need to worry about your grocery list either, Easy Chef takes care of that as well!'
             />
@@ -32,14 +32,14 @@ const Project = () => {
               tech='Built using EJS, MongoDB, Express.js, HTML, CSS'
               github = 'https://github.com/eruditeme/toDoApp'
               demo = 'https://evening-wave-11303-56595dc7bb5c.herokuapp.com/'
-              descr = "Tired of forgetting what you need to do for the day? Well, this to do list can help you solve just that. This to do app empowers you to tailor your to-do lists according to your unique needs and preferences, whether it is a to do list for school, work, home, etc. Deployed with Heroku."
+              descr = "Tired of forgetting what you need to do for the day? Well, this to do list can help you solve just that. This to-do app empowers you to tailor your to-do lists according to your unique needs and preferences. Whether or not you need a list for school, work, or home, this app lets you to customize your lists however you wish."
             />
           </FadeInSection>
           <FadeInSection>
             <ProjectCard 
               img = {townImg}
               name='Town' 
-              tech='Built using HTML Canvas'
+              tech='Built using HTML Canvas, Javascript'
               github = "https://github.com/eruditeme/Town"
               demo = 'https://papaya-cendol-bd7840.netlify.app'
               descr = 'Inspired by Pokémon, Town is a game where you, the player, can walk around a small quiet town using the WASD keys. However, in certain areas, players will have a chance of encountering a draggle. When this occurs, a battle will be initiated.'

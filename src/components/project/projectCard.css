@@ -6,6 +6,7 @@
     margin-bottom: 2rem;
     border: 1px solid transparent;
     overflow: hidden;
+    height: auto;
 }
 
 .project-container:hover {
