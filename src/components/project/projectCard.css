@@ -1,12 +1,12 @@
 .project-container {
-    background-color: #202c6d;
+    background-color: #152b4e;
     border-radius: 1rem;
     text-align: center;
-    padding-bottom: 1rem;
     margin-bottom: 2rem;
     border: 1px solid transparent;
     overflow: hidden;
     height: auto;
+    height: 100%;
 }
 
 .project-container:hover {
@@ -50,13 +50,6 @@ img {
 }
 
 /* ========================== MEDIA QUERY ============================= */
-
-@media screen and (max-width:1281px) {
-    .project-desc{
-        margin-left: 0.8rem;
-        margin-right: 0.8rem;
-    }
-}
 
 @media screen and (max-width:1024px) {
     .btn {

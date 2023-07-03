@@ -5,6 +5,7 @@ import About from './components/about/About'
 import Project from './components/project/Project'
 import Footer from './components/footer/Footer'
 import Contact from './components/contact/Contact'
+import More from './components/more/More'
 
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
         <Header />
         <About />
         <Project />
+        <More />
         <Contact />
         <Footer />
     </>

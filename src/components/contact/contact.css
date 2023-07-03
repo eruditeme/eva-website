@@ -27,11 +27,18 @@ hr {
     margin-bottom: 3%;
  }
 
- /* ========================== MEDIA QUERY ============================= */
+/* ========================== MEDIA QUERY ============================= */
 
- @media screen and (max-width:600px) {
+@media screen and (max-width:1100px) {
     #contact {
         padding-right: 4rem;
         padding-left: 4rem;
+    }
+}
+
+@media screen and (max-width:600px) {
+    #contact {
+        padding-right: 3rem;
+        padding-left: 3rem;
     }
 }
