@@ -10,16 +10,17 @@ const More = () => {
             <FadeInSection>
                 <div className='cards'>
                     <MoreCard
-                        github="https://github.com/eruditeme/petStay"
-                        title = "Paws Pet Sitting"
-                        description = "Paws Pet Sitting is a full stack web application that allows you to find the perfect pet sitter for your pet while you are away"
-                        stack = "Next.js, MongoDB, Tailwind, Prisma"
-                    />
-                    <MoreCard
                         github="https://github.com/eruditeme/SustainableHabitat"
                         title = "Sustainable Habitat"
                         description = "A python script that can be run on ArcGIS Pro in order to find suitable habitat areas for bobcats"
                         stack = "Python"
+                    />
+                    <MoreCard
+                        github="https://github.com/eruditeme/Town"
+                        deploy="https://papaya-cendol-bd7840.netlify.app/"
+                        title = "Town"
+                        description = "A monster battle game that spawns monsters on random when the player enters battle zones"
+                        stack = "HTML Canvas, Javascript"
                     />
                     <MoreCard
                         github="https://github.com/eruditeme/Simon-Game"

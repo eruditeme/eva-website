@@ -2,10 +2,10 @@ import React from 'react'
 import './project.css'
 import ProjectCard from './ProjectCard';
 import weatherImg from '../../assets/weatherImg.jpeg'
-import townImg from '../../assets/townImg.png'
 import todolist from '../../assets/todolist.png'
 import { FadeInSection } from '../about/FadeIn';
 import easyChefGif2 from "../../assets/easygif3.gif"
+import paws from "../../assets/paws.png"
 
 const Project = () => {
 
@@ -37,12 +37,11 @@ const Project = () => {
           </FadeInSection>
           <FadeInSection>
             <ProjectCard 
-              img = {townImg}
-              name='Town' 
-              tech='Built using HTML Canvas, Javascript'
-              github = "https://github.com/eruditeme/Town"
-              demo = 'https://papaya-cendol-bd7840.netlify.app'
-              descr = 'Inspired by Pokémon, Town is a game where you, the player, can walk around a small quiet town using the WASD keys. However, in certain areas, players will have a chance of encountering a draggle. When this occurs, a battle will be initiated.'
+              img = {paws}
+              name='Paws Pet Sitting' 
+              tech='Built using Next.js, MongoDB, Tailwind'
+              github = "https://github.com/eruditeme/petStay"
+              descr = 'Paws Pet Sitting is a pet sitting website that connects pet owners with reliable and caring pet sitters in their local area. Whether you have a busy work schedule, or simply need someone to look after your pet, Paws Pet Sitting is here to help.'
             />
           </FadeInSection>
           <FadeInSection>
