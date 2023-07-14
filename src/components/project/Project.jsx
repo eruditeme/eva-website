@@ -39,7 +39,7 @@ const Project = () => {
             <ProjectCard 
               img = {paws}
               name='Paws Pet Sitting' 
-              tech='Built using Next.js, MongoDB, Tailwind'
+              tech='Built using Next.js, MongoDB, Tailwind, Prisma'
               github = "https://github.com/eruditeme/petStay"
               descr = 'Paws Pet Sitting is a pet sitting website that connects pet owners with reliable and caring pet sitters in their local area. Whether you have a busy work schedule, or simply need someone to look after your pet, Paws Pet Sitting is here to help.'
             />
@@ -48,7 +48,7 @@ const Project = () => {
             <ProjectCard 
               img = {weatherImg}
               name='Weatherman' 
-              tech='Built using React, HTML, CSS, Bootstrap'
+              tech='Built using React, HTML, CSS, Bootstrap, Weather API'
               demo = 'https://lamevang-weather-app.netlify.app/'
               descr = 'This weather app enables users to stay up-to-date on the current weather conditions in any city around the world. With this app, you can easily search for a city and get real-time information on the temperature, wind speed, and humidity levels.'
             />

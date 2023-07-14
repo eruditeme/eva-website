@@ -29,6 +29,12 @@ const More = () => {
                         description = "Based on the popular electronic memory game Simon, this game challenges players to remember and reproduce a sequence of lights and sounds"
                         stack = "Javascript, HTML, CSS"
                     />
+                    <MoreCard
+                        github="https://github.com/eruditeme/eva-website"
+                        title = "My portfolio website"
+                        description = "My portfolio website that you are currently viewing :)"
+                        stack = "React, HTML, CSS"
+                    />
                 </div>
             </FadeInSection>
             
