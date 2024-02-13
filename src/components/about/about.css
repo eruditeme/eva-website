@@ -54,6 +54,7 @@ li {
 }
   .loader {
     scale: 6.5;
+	width: fit-content;
   }
   .box {
     position: relative;
