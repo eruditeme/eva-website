@@ -11,7 +11,7 @@ const About = () => {
           <div id="bio">
             <p className='bios'>
               Hey, I'm Evangeline, a fourth year UofT student doing a double major in Computer Science and 
-              Geographical Information Systems, as well as a minor in Economics.
+              Geographical Information Systems, as well as a minor in Economics. 
             </p>
 
             <div className='bios'>
@@ -19,17 +19,17 @@ const About = () => {
               <p>Here are a few technologies that I have been working with:</p>
               <ul>
                 <li>Python</li>
-                <li>PostgreSQL</li>
-                <li>JavaScript</li>
-                <li>HTML, CSS</li>
+                <li>SQL</li>
+                <li>Next.js</li>
+                <li>Assembly</li>
                 <li>React</li>
-                <li>Django</li>
+                <li>Go</li>
               </ul>
             </div>
 
             <p className='bios'>
               Outside of work and academics, I enjoy creating digital art,
-              playing video games, and watching space documentaries. 
+              playing video games, and learning new languages. 
             </p>
           </div>
           <div class="loader">
